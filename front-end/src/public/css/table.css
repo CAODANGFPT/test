@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .ant-table-wrapper {
+    background-color: white !important;
+    color: white !important;
+  }
+
+  html.dark .ant-table-wrapper {
+    background-color: #212226 !important;
+    color: white !important;
+  }
+
+  .ant-table-cell {
+    background-color: white !important;
+    color: white !important;
+  }
+
+  html.dark .ant-table-cell {
+    background-color: #212226 !important;
+    color: white !important;
+  }
+
+  .ant-pagination-item-link {
+    color: black;
+  }
+
+  html.dark .ant-pagination-item-link {
+    color: white !important;
+  }
+
+  html.dark .ant-pagination-item-1 {
+    background-color: #212226;
+  }
+
+  html.dark .ant-pagination-item-2 {
+    background-color: #212226;
+  }
+
+  html.dark .ant-pagination-item-active {
+    border-color: white;
+  }
+
+  html.dark .ant-pagination-item-1 a {
+    color: white;
+  }
+
+  html.dark .ant-pagination-item-2 a {
+    color: white;
+  }
+}
+@media screen and (max-width: 890px) {
+  .ant-table {
+    width: 600px;
+  }
+}

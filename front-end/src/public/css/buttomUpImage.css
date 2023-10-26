@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .ant-btn:hover {
+    border-color: #e4c021 !important;
+    color: #e4c021 !important;
+  }
+
+  html.dark .ant-btn:hover {
+    border-color: #00c6ab !important;
+    color: #00c6ab !important;
+  }
+
+  html.dark .ant-btn {
+    color: white !important;
+    border-color: white !important;
+  }
+
+  .ant-select-selector:hover {
+    border-color: #e4c021 !important;
+  }
+
+  html.dark .ant-select-selector:hover {
+    border-color: #00c6ab !important;
+  }
+}
